@@ -1,0 +1,40 @@
+User Manual for Assignment 4: Task Tracker GUI - By: Daven Chohan - Student ID: 301401324
+
+Operation 1: List all tasks
+	Listing of all the tasks is shown when the "All" toggle button is selected at the top of the "My To-Do List" window
+	which opens when the program is run. Then in the big rectangle in the middle all tasks are shown in chronological order
+	along with the tasks information. You may have to scroll down to see all the tasks or scroll to the right to see all 
+	of the notes/name. If no tasks are recorded it will simply say "No tasks to show" in the big rectangle.
+
+Operation 2: Add a new task
+	To add a new task, click the "Add task" button in the "My To-Do List" window. When clicked an "Add Task" window should appear.
+	Here you must specify the name of the task alongside the date and time it is due. You can also provide notes if you 
+	you wanted to. If you simply want to add a random task you can click "Generate" and the name and notes of the task will get
+	automatically filled however, you still must provide a due date and time. When done click "Create" to finish creating
+	the task. The task is now shown in the big rectangle in the "My To-Do List" window.
+
+Operation 3: Remove a task
+	To remove a task when looking at the "My To-Do List" window make sure the "All" toggle button is selected at the top and then
+	under whichever task you would like to remove you will see a button that says, "Remove Task". Click this button and the task
+	will be removed. It will no longer show in any of the task lists.
+
+Operation 4: Mark a task as completed/incomplete
+	To mark a task as completed or incomplete when looking at the "My To-Do List" window make sure the "All" toggle button is selected
+	at the top and then under whichever task you would like to mark as completed/incomplete there is a checkbox that says "Completed",
+	to mark a task as completed, check the checkbox, to mark it as incomplete, uncheck the checkbox.
+
+Operation 5: List overdue incomplete tasks
+	Listing of all the overdue incomplete tasks is shown when the "Overdue" toggle button is selected at the top of the "My To-Do List" 
+	window which opens when the program is run. Then in the big rectangle in the middle all overdue incomplete tasks are shown in chronological 
+	order along with the task's information. You may have to scroll down to see all the tasks or scroll to the right to see all 
+	of the notes/name. If no tasks are overdue and incomplete, it will simply say "No overdue incomplete tasks to show" in the big rectangle.
+
+Operation 6: List upcoming incomplete tasks
+	Listing of all the upcoming incomplete tasks is shown when the "Upcoming" toggle button is selected at the top of the "My To-Do List" 
+	window which opens when the program is run. Then in the big rectangle in the middle all upcoming incomplete tasks are shown in chronological 
+	order along with the task's information. You may have to scroll down to see all the tasks or scroll to the right to see all 
+	of the notes/name. If no tasks are upcoming and incomplete, it will simply say "No upcoming incomplete tasks to show" in the big rectangle.
+
+Operation 7: Exit
+	When the "X" button is clicked in the top right of the "My To-Do List" window the program automatically saves the current task list in a
+	JSON file in the main directory of the project. Then the application window closes.
